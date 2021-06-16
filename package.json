@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/streams-node-from-circular-array",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a readable stream from a circular array-like object.",
   "license": "Apache-2.0",
   "author": {
