@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import circularArrayStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/streams-node-from-circular-array/tags). For example,
+
+```javascript
 import circularArrayStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@v0.2.3-esm/index.mjs';
+import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@esm/index.mjs';
 ```
 
 <a name="circular-array-stream"></a>
@@ -245,7 +250,7 @@ This method accepts the same `options` as [`circularArrayStream()`](#circular-ar
 import inspectStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import circularArrayStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@v0.2.3-esm/index.mjs';
+import circularArrayStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-from-circular-array@esm/index.mjs';
 
 function log( v ) {
     console.log( v.toString() );
